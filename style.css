@@ -28,7 +28,7 @@ body {
   justify-content: center;
   max-width: 1200px;
   background-color: black;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .main_title {
