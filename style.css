@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Montserrat", "sans-serif";
+  color: white;
+}
+
+body {
+  background-color: black;
+  margin: 2rem 0;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  background-color: black;
+  gap: 0.5rem;
+}
+
+.main_title {
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.pizza-logo {
+  width: 150px;
+}
+
+#formPizza {
+  display: flex;
+  gap: 1rem;
+}
+
+#pizzaSelecter {
+  color: black;
+  border-radius: 5px;
+  height: 30px;
+}
+
+#submitPizzaBtn {
+  background-color: #111111;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  height: 100%;
+}
+
+#errorContainer {
+  color: crimson;
+  font-size: 10px;
+}
+
+#renderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  background-color: #111111;
+  gap: 0.5rem;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.ingredients {
+  font-size: 12px;
+}
+
+.price {
+  font-size: 30px;
+  color: crimson;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0 5px;
+}
+
+.card-img {
+  width: 90%;
+  border-radius: 10px;
+}
